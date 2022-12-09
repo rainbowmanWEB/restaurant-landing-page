@@ -4,3 +4,11 @@
 @import "mixins";
 @import "fonts";
 @import "core";
+@import "../blocks/header/header.scss";
+@import "../blocks/header/__text-wrap/header__text-wrap.scss";
+@import "../blocks/header/__logo/header__logo.scss";
+@import "../blocks/header/__nav/header__nav.scss";
+@import "../blocks/header/__logo-icon/header__logo-icon.scss";
+@import "../blocks/header/__nav-list/header__nav-list.scss";
+@import "../blocks/header/__nav-search-icon/header__nav-search-icon.scss";
+@import "../blocks/header/__nav-elem-link/header__nav-elem-link.scss";

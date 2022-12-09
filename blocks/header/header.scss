@@ -1,0 +1,21 @@
+.header {
+    background-color: $header--bg;
+    background-image: url('../images/top-image.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::after {
+        content: "";
+        height: 100%;
+        width: 795px;
+        background-image: url('../images/bg-paint-top.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        position: absolute;
+        left: 30%;
+        top: 0;
+        z-index: 1;
+
+    }
+}

@@ -1,0 +1,11 @@
+.header__nav {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    z-index: 3;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+}
