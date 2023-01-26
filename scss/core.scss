@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-	@include min-max (1400px, 320px);
+	@include min-max (1440px, 320px);
 	margin: auto;
 }
 

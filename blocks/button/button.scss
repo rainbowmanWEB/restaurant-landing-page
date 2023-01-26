@@ -1,0 +1,11 @@
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 19.23px;
+    color: $button--color;
+    background-color: $header__title--color;
+    padding: 13px 57px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
