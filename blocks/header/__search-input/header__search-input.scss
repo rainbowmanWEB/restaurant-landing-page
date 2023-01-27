@@ -1,0 +1,33 @@
+.header__search-input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid $header__search-input--border;
+    flex-basis: 70%;
+    color: $header__search-input--border;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    width: 50px;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+@media (min-width: 400px) {
+	.header__search-input {
+		width: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header__search-input {
+		font-size: 4rem;
+	}
+}
+
+
+@media (min-width: 2000px) {
+	.header__search-input {
+		font-size: calc(4rem + 0.5vw);
+	}
+}

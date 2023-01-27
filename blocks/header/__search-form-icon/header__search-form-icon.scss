@@ -1,0 +1,19 @@
+.header__search-form-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: $header__search-input--border;
+}
+
+@media (min-width: 1200px) {
+	.header__search-form-icon {
+		width: 4rem;
+        height: 4rem;
+	}
+}
+
+@media (min-width: 2000px) {
+	.header__search-form-icon {
+		width: calc(4rem + 0.3vw);
+        height: calc(4rem + 0.3vw);
+	}
+}

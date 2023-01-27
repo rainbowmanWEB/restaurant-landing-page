@@ -1,0 +1,9 @@
+.header__nav-list-button {
+    margin-right: 10px;
+}
+
+@media (min-width: 500px) {
+	.header__nav-list-button {
+		display: none;
+	}
+}

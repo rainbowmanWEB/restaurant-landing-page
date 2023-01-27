@@ -1,5 +1,12 @@
 .header__decoration_onion-1 {
-    left: 89%;
-    top: 57%;
+    left: 86%;
+    top: 75%;
     transform: rotate(0);
+}
+
+@media (min-width: 800px) {
+	.header__decoration_onion-1 {
+		left: 89%;
+        top: 57%;
+	}
 }

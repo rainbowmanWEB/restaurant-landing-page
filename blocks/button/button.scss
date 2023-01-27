@@ -1,11 +1,25 @@
 .button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 19.23px;
+    font-size: 1.3rem;
     color: $button--color;
     background-color: $header__title--color;
-    padding: 13px 57px;
+    padding: 10px 40px;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+}
+
+@media (min-width: 1200px) {
+	.button {
+		font-size: 19.23px;
+        padding: 13px 57px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.button {
+		font-size: calc(19.23px + 0.5vw);
+        padding: calc(13px + 0.3vw) calc(57px + 0.3vw);
+	}
 }

@@ -4,9 +4,28 @@
     text-decoration: none;
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.5rem;
+    flex-basis: 100%;
 
     &:hover {
         text-decoration: underline;
     }
+}
+
+@media (min-width: 500px) {
+	.header__nav-elem-link {
+		flex-basis: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header__nav-elem-link {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.header__nav-elem-link {
+		font-size: calc(25px + 0.5vw);
+	}
 }

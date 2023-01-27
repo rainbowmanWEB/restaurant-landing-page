@@ -4,11 +4,29 @@
     font-family: 'myriad_proregular';
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 25px;
-    z-index: 3;
+    font-size: 1.5rem;
+    z-index: 5;
     position: absolute;
     display: inline-block;
-    left: 60px;
-    top: 40px;
-    padding-left: 56px;
+    left: 10px;
+    top: 10px;
+    padding-left: 46px;
+}
+
+@media (min-width: 1200px) {
+	.header__logo {
+		left: 60px;
+        top: 40px;
+        padding-left: 56px;
+        font-size: 25px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.header__logo {
+		font-size: calc(25px + 0.5vw);
+        left: calc(60px + 0.3vw);
+        top: calc(40px + 0.3vw);
+        padding-left: calc(56px + 0.5vw);
+	}
 }

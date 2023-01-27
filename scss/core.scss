@@ -17,6 +17,12 @@ body {
 	margin: auto;
 }
 
+@media (min-width: 2000px) {
+	.container {
+		max-width: calc(1440px + 20vw);
+	}
+}
+
 .icon_autor {
 	display: none;
 }

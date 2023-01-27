@@ -1,3 +1,15 @@
 .header__button {
-    margin-top: 46px;
+    margin-top: 26px;
+}
+
+@media (min-width: 1200px) {
+	.header__button {
+		margin-top: 46px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.header__button {
+		margin-top: calc(46px + 0.3vw);
+	}
 }

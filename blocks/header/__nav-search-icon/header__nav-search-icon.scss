@@ -3,3 +3,10 @@
     height: 40px;
     fill: $header__logo--color;
 }
+
+@media (min-width: 2000px) {
+	.header__nav-search-icon {
+		width: calc(35px + 0.8vw);
+        height: calc(40px + 0.8vw);
+	}
+}

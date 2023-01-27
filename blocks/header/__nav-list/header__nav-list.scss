@@ -3,6 +3,34 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-basis: 69%;
-    align-self: center;
+    flex-basis: 48%;
+    align-self: baseline;
+    display: none;
+    padding-right: 10px!important;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+@media (min-width: 400px) {
+	.header__nav-list {
+        position: static;
+        top: 0;
+	}
+}
+
+@media (min-width: 500px) {
+	.header__nav-list {
+        display: flex;
+        flex-direction: row;
+        text-align: none;
+        flex-basis: 90%;
+	}
+}
+
+@media (min-width: 800px) {
+	.header__nav-list {
+        flex-basis: 69%;
+	}
 }

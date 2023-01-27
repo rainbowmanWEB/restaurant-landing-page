@@ -1,5 +1,12 @@
 .header__decoration_vetka-1 {
-    left: 30%;
-    top: 37%;
+    left: 2%;
+    top: 13%;
     transform: rotate(0deg);
+}
+
+@media (min-width: 800px) {
+	.header__decoration_vetka-1 {
+		left: 30%;
+        top: 37%;
+	}
 }

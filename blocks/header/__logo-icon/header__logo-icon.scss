@@ -7,3 +7,10 @@
     left: 0;
     
 }
+
+@media (min-width: 2000px) {
+	.header__logo-icon {
+		height: calc(58px + 1vw);
+        width: calc(54px + 1vw);
+	}
+}

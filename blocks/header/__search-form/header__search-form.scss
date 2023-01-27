@@ -1,0 +1,22 @@
+.header__search-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    background-color: $header__search-form--bg;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    display: none;
+
+    &::after {
+        content: "";
+        width: 100%;
+        position: absolute;
+        background: linear-gradient($header__search-form--bg, rgba(0, 0, 0, 0));
+        height: 100px;
+        left: 0;
+        bottom: -100px;
+    }
+}

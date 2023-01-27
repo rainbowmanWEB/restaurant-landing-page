@@ -1,8 +1,21 @@
 .header__text {
     font-family: 'Montserrat';
-    font-size: 29.72px;
+    font-size: 1.5rem;
     color: $header__title--color;
     font-weight: 400;
     color: $header__text--color;
-    margin-top: 90px;
+    margin-top: 50px;
+}
+
+@media (min-width: 1200px) {
+	.header__text {
+		font-size: 29.72px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.header__text {
+		font-size: calc(30px + 0.5vw);
+        margin-top: calc(90px + 0.3vw);
+	}
 }
