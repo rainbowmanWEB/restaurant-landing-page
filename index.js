@@ -15,3 +15,6 @@ import headerDecoration from './blocks/header/__decoration/js/header__decoration
 import list from './images/svg-icons/list.svg';
 import headerNavListButton from './blocks/header/__nav-list-button/js/header__nav-list-button.js';
 import headerNavSearch from './blocks/header/__nav-search/js/header__nav-search.js';
+import bestSeller1 from './images/best-seller-1.jpg';
+import bestSeller2 from './images/best-seller-2.jpg';
+import bestSeller3 from './images/best-seller-3.jpg';
