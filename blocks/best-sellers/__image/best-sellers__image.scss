@@ -5,3 +5,10 @@
     display: block;
     margin: auto;
 }
+
+@media (min-width: 2000px) {
+	.best-sellers__image {
+        width: calc(230px + 0.5vw);
+        height: calc(230px + 0.5vw);
+	}
+}

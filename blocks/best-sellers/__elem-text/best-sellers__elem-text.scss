@@ -2,10 +2,24 @@
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 16.86px;
+    font-size: 1.5rem;
     color: $best-sellers__title--color;
     margin-top: 27px;
     width: 230px;
     display: block;
     margin: auto;
+}
+
+@media (min-width: 1200px) {
+	.best-sellers__elem-text {
+		font-size: 16.86px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.best-sellers__elem-text {
+		font-size: calc(17px + 0.5vw);
+        margin-top: calc(27px + 0.3vw);
+        width: calc(230px + 0.3vw);
+	}
 }

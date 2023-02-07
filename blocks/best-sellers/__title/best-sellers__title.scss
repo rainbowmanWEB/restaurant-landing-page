@@ -7,3 +7,9 @@
     line-height: 0;
     color: $best-sellers__title--color;
 }
+
+@media (min-width: 2000px) {
+	.best-sellers__title {
+		font-size: calc(75px + 0.5vw);
+	}
+}

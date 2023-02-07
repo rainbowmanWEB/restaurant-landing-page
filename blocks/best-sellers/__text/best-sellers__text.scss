@@ -6,5 +6,19 @@
     font-size: 25.23px;
     color: $best-sellers__title--color;
     margin-top: 50px;
-    padding: 0 110px;
+    padding: 0;
+}
+
+@media (min-width: 980px) {
+	.best-sellers__text {
+        padding: 0 110px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.best-sellers__text {
+		font-size: calc(25px + 0.5vw);
+        margin-top: calc(50px + 0.3vw);
+        padding: 0 calc(110px + 0.3vw);
+	}
 }

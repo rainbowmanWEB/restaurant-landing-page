@@ -9,3 +9,11 @@
     display: block;
     margin: auto;
 }
+
+@media (min-width: 2000px) {
+	.best-sellers__elem-title {
+		font-size: calc(41px + 0.7vw);
+        margin-top: calc(19px + 0.3vw);
+        width: calc(230px + 0.3vw);
+	}
+}
