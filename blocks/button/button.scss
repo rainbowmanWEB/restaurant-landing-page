@@ -8,6 +8,11 @@
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+
+    &:hover {
+        color: lighten($button--color, 80%);
+        background-color: darken($header__title--color, 50%);
+    }
 }
 
 @media (min-width: 1200px) {
