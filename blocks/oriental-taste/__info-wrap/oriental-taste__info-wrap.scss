@@ -1,6 +1,19 @@
 .oriental-taste__info-wrap {
-    padding: 100px 100px 20px 160px;
-    flex-basis: 53%;
+    padding: 50px 20px 20px;
+    flex-basis: 100%;
     z-index: 2;
     position: relative;
+}
+
+@media (min-width: 850px) {
+	.oriental-taste__info-wrap {
+		flex-basis: 53%;
+        padding: 100px 100px 20px 160px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.oriental-taste__info-wrap {
+		padding: calc(100px + 0.3vw) 0 calc(20px + 0.3vw) calc(160px + 0.3vw);
+	}
 }

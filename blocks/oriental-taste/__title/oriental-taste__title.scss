@@ -1,7 +1,29 @@
 .oriental-taste__title {
     font-family: 'Grand Hotel', cursive;
-    font-size: 100px;
+    font-size: 4rem;
     color: $header__title--color;
     font-weight: 400;
-    line-height: 0;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media (min-width: 850px) {
+	.oriental-taste__title  {
+        font-size: 100px;
+        text-align: start;
+        line-height: 90px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.oriental-taste__title  {
+        line-height: 0;
+        font-size: 100px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.oriental-taste__title  {
+        font-size: calc(100px + 0.5vw);
+	}
 }

@@ -1,5 +1,29 @@
 .oriental-taste__button {
-    padding: 13px 75px;
-    font-size: 25px;
-    margin-top: 100px;
+    padding: 13px 45px;
+    font-size: 1.2rem;
+    margin: 50px auto 30px;
+    text-align: center;
+    display: table;
+}
+
+@media (min-width: 850px) {
+	.oriental-taste__button {
+		text-align: start;
+        margin: 50px 0 10px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.oriental-taste__button {
+		font-size: 25px;
+        padding: 13px 75px;
+        margin-top: 100px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.oriental-taste__button {
+		font-size: calc(25px + 0.5vw);
+        padding: calc(13px + 0.3vw) calc(75px + 0.3vw);
+	}
 }

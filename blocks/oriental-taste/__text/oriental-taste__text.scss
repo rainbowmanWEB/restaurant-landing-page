@@ -1,7 +1,28 @@
 .oriental-taste__text {
-    margin-top: 60px;
+    margin-top: 30px;
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 1.4rem;
     color: $header__text--color;
     font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width: 850px) {
+	.oriental-taste__text {
+		text-align: start;
+	}
+}
+
+@media (min-width: 1200px) {
+	.oriental-taste__text {
+		margin-top: 60px;
+        font-size: 25px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.oriental-taste__text {
+		margin-top: calc(60px + 0.3vw);
+        font-size: calc(25px + 0.5vw);
+	}
 }
