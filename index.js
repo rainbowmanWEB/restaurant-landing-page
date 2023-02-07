@@ -19,3 +19,4 @@ import bestSeller1 from './images/best-seller-1.jpg';
 import bestSeller2 from './images/best-seller-2.jpg';
 import bestSeller3 from './images/best-seller-3.jpg';
 import bestSeller4 from './images/best-seller-4.jpg';
+import bgPaint1 from './images/bg-paint-orinteal-taste.png';
