@@ -1,0 +1,29 @@
+.statistics__number {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    color: $header__title--color;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 850px) {
+	.statistics__number {
+		
+	}
+}
+
+@media (min-width: 1200px) {
+	.statistics__number {
+        font-size: 50.53px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.statistics__number {
+        font-size: calc(50.53px + 0.5vw);
+	}
+}

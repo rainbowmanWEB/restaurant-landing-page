@@ -1,0 +1,9 @@
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: $statistics--bg;
+    padding: 180px 150px 260px;
+    position: relative;
+    overflow: hidden;
+}

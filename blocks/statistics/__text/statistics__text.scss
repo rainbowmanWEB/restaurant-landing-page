@@ -1,0 +1,31 @@
+.statistics__text {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    color: $header__text--color;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 20px;
+    flex-basis: 100%;
+}
+
+@media (min-width: 850px) {
+	.statistics__text {
+		
+	}
+}
+
+@media (min-width: 1200px) {
+	.statistics__text {
+		margin-top: 60px;
+        font-size: 25px;
+        padding: 0 120px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.statistics__text {
+		margin-top: calc(60px + 0.3vw);
+        font-size: calc(25px + 0.5vw);
+	}
+}

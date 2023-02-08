@@ -1,0 +1,29 @@
+.statistics__title {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    color: $header__title--color;
+    font-weight: 400;
+    text-align: center;
+    flex-basis: 100%;
+    line-height: 20px;
+}
+
+@media (min-width: 850px) {
+	.statistics__title  {
+        font-size: 100px;
+        line-height: 90px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.statistics__title  {
+        line-height: 0;
+        font-size: 100px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.statistics__title  {
+        font-size: calc(100px + 0.5vw);
+	}
+}
