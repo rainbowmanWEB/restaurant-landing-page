@@ -1,5 +1,18 @@
 .statistics__decoration_perech-2 {
-    left: 24%;
-    top: 79%;
+    left: 72%;
+    top: 69%;
     transform: rotate(0);
+}
+
+@media (min-width: 426px) {
+	.statistics__decoration_perech-2 {
+		left: 77%;
+        top: 85%;
+	}
+}
+
+@media (min-width: 769px) {
+	.statistics__decoration_perech-2 {
+        top: 85%;
+	}
 }

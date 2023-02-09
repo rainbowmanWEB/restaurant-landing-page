@@ -1,9 +1,16 @@
 .statistics {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     background-color: $statistics--bg;
-    padding: 180px 150px 260px;
+    padding: 200px 20px 250px;
     position: relative;
     overflow: hidden;
+}
+
+@media (min-width: 1025px) {
+	.statistics {
+		justify-content: space-between;
+        padding: 180px 150px 260px;
+	}
 }

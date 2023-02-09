@@ -9,12 +9,6 @@
     flex-basis: 100%;
 }
 
-@media (min-width: 850px) {
-	.statistics__text {
-		
-	}
-}
-
 @media (min-width: 1200px) {
 	.statistics__text {
 		margin-top: 60px;
@@ -27,5 +21,6 @@
 	.statistics__text {
 		margin-top: calc(60px + 0.3vw);
         font-size: calc(25px + 0.5vw);
+        padding: 0 calc(120px + 0.3vw);
 	}
 }

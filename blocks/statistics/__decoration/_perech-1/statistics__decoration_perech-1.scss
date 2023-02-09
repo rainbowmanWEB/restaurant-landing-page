@@ -1,5 +1,12 @@
 .statistics__decoration_perech-1 {
-    left: 68%;
-    top: 7%;
+    left: 65%;
+    top: 4%;
     transform: rotate(0);
+}
+
+@media (min-width: 426px) {
+	.statistics__decoration_perech-1 {
+		left: 68%;
+        top: 7%;
+	}
 }
