@@ -1,10 +1,47 @@
 .chicken-grill {
     flex-direction: row-reverse;
-    padding: 100px 0;
-
     &::before {
         transform: rotate(180deg);
-        bottom: 2px;
-        height: 710px;
+        bottom: -292px;
+        height: 1018px;
     }
 }
+
+@media (min-width: 426px) {
+	.chicken-grill {s
+
+        &::before {
+            height: 740px;
+        }
+	}
+}
+
+@media (min-width: 769px) {
+	.chicken-grill {
+
+        &::before {
+            bottom: -157px;
+            height: 536px;
+        }
+	}
+}
+
+@media (min-width: 1025px) {
+	.chicken-grill {
+
+        &::before {
+            bottom: -140px;
+        }
+	}
+}
+
+@media (min-width: 2000px) {
+	.chicken-grill {
+
+        &::before {
+            bottom: calc(156px + 0.3vw);
+            height: calc(1015px + 0.3vw);
+        }
+	}
+}
+
