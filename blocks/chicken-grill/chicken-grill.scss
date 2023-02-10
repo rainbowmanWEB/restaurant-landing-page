@@ -1,0 +1,10 @@
+.chicken-grill {
+    flex-direction: row-reverse;
+    padding: 100px 0;
+
+    &::before {
+        transform: rotate(180deg);
+        bottom: 2px;
+        height: 710px;
+    }
+}
