@@ -1,5 +1,5 @@
 .lenora-fields {
-    padding: 270px 200px 250px;
+    padding: 50px 10px 40px;
     background-image: url('../images/best-seller-4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,4 +17,22 @@
         opacity: 0.6;
         z-index: 1;
     }
+}
+
+@media (min-width: 426px) {
+	.lenora-fields {
+        padding: 150px 100px 100px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.lenora-fields {
+        padding: 270px 200px 250px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.lenora-fields {
+        padding: calc(270px + 0.3vw) calc(200px + 0.3vw) calc(250px + 0.3vw);
+	}
 }
