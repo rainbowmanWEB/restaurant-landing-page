@@ -21,7 +21,7 @@
 
         &::before {
             bottom: -157px;
-            height: 536px;
+            height: 576px;
         }
 	}
 }
@@ -30,7 +30,7 @@
 	.chicken-grill {
 
         &::before {
-            bottom: -140px;
+            bottom: -100px;
         }
 	}
 }
@@ -39,7 +39,7 @@
 	.chicken-grill {
 
         &::before {
-            bottom: calc(156px + 0.3vw);
+            bottom: calc(-156px - 0.3vw);
             height: calc(1015px + 0.3vw);
         }
 	}
