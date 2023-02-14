@@ -1,0 +1,28 @@
+.lenora-fields__text {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    color: $button--color;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+@media (min-width: 850px) {
+	.lenora-fields__text {
+		
+	}
+}
+
+@media (min-width: 1025px) {
+	.lenora-fields__text {
+        font-size: 44.9px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.lenora-fields__text {
+        font-size: calc(44.9px + 0.5vw);
+	}
+}
+

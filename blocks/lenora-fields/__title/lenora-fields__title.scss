@@ -1,0 +1,28 @@
+.lenora-fields__title {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 4rem;
+    color: $button--color;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 110px;
+}
+
+@media (min-width: 769px) {
+	.lenora-fields__title  {
+        
+	}
+}
+
+@media (min-width: 1025px) {
+	.lenora-fields__title  {
+        font-size: 74.19px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.oriental-taste__title  {
+        font-size: calc(74.19px + 0.5vw);
+	}
+}
