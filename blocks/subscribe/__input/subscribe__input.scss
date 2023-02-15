@@ -1,0 +1,20 @@
+.subscribe__input {
+    width: 550px;
+    border: none;
+    background-color: $subscribe--bg;
+    box-shadow: 0 0 50px $subscribe__input--shadow;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 25px;
+    color: $button--color;
+    padding: 0 44px;
+
+
+    &::placeholder {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 25px;
+        color: $button--color;
+        opacity: 0.8;
+    }
+}

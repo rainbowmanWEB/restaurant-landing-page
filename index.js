@@ -22,3 +22,4 @@ import bestSeller4 from './images/best-seller-4.jpg';
 import bgPaint1 from './images/bg-paint-orinteal-taste.png';
 import statisticsDecoration from './blocks/statistics/__decoration/js/statistics__decoration.js';
 import chickenGrill from './images/chicken-grill.jpg';
+import subscribeDecoration from './blocks/subscribe/__decoration/js/subscribe__decoration.js';
