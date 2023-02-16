@@ -23,3 +23,7 @@ import bgPaint1 from './images/bg-paint-orinteal-taste.png';
 import statisticsDecoration from './blocks/statistics/__decoration/js/statistics__decoration.js';
 import chickenGrill from './images/chicken-grill.jpg';
 import subscribeDecoration from './blocks/subscribe/__decoration/js/subscribe__decoration.js';
+import facebook from './images/svg-icons/facebook.svg';
+import instagram from './images/svg-icons/instagram.svg';
+import twitter from './images/svg-icons/twitter.svg';
+import whatsapp from './images/svg-icons/whatsapp.svg';
