@@ -1,4 +1,22 @@
 .subscribe {
     background-color: $subscribe--bg;
-    padding: 150px 300px 305px;
+    padding: 100px 100px 105px;
+}
+
+@media (min-width: 426px) {
+    .subscribe {
+        padding: 150px 100px 305px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .subscribe {
+        padding: 150px 300px 305px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .subscribe {
+        padding: calc(150px + 0.3vw) calc(300px + 2vw) calc(305px + 0.3vw);
+    }
 }

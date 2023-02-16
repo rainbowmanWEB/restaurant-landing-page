@@ -1,3 +1,5 @@
 .subscribe__title {
     color: $button--color;
+    position: relative;
+    z-index: 4;
 }

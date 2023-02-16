@@ -1,5 +1,21 @@
 .subscribe__button {
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     border: none;
+    margin-top: 20px;
+    position: relative;
+    z-index: 4;
+}
+
+@media (min-width: 769px) {
+    .subscribe__button {
+        margin-top: 0;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .subscribe__button {
+        font-size: calc(25px + 0.1vw);
+    }
 }

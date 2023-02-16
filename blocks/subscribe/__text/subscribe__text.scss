@@ -1,5 +1,19 @@
 .subscribe__text {
     color: $button--color;
-    font-size: 29.71px;
+    font-size: 2rem;
     padding: 0;
+    position: relative;
+    z-index: 4;
+}
+
+@media (min-width: 769px) {
+    .subscribe__text {
+        font-size: 29.71px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .subscribe__text {
+        font-size: calc(29.71px + 0.5vw);
+    }
 }

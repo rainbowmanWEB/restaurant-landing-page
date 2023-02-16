@@ -1,20 +1,54 @@
 .subscribe__input {
-    width: 550px;
+    flex-basis: 80%;
+    max-width: 310px;
     border: none;
     background-color: $subscribe--bg;
     box-shadow: 0 0 50px $subscribe__input--shadow;
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: $button--color;
-    padding: 0 44px;
+    padding: 10px 44px;
+    position: relative;
+    z-index: 4;
 
 
     &::placeholder {
         font-family: 'Montserrat';
         font-weight: 400;
-        font-size: 25px;
+        font-size: 1.5rem;
         color: $button--color;
         opacity: 0.8;
+    }
+}
+
+@media (min-width: 425px) {
+    .subscribe__input {
+        max-width: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .subscribe__input {
+        font-size: 25px;
+        flex-basis: auto;
+        width: 550px;
+        padding: 0 44px;
+
+        &::placeholder {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .subscribe__input {
+        font-size: calc(25px + 0.5vw);
+        flex-basis: auto;
+        width: calc(550px + 15vw);
+
+        &::placeholder {
+            font-size: calc(25px + 0.5vw);
+        }
     }
 }
