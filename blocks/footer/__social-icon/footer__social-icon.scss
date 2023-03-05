@@ -6,3 +6,10 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media (min-width: 2000px) {
+    .footer__social-icon {
+        width: calc(25px + 0.5vw);
+        height: calc(25px + 0.5vw);
+    }
+}

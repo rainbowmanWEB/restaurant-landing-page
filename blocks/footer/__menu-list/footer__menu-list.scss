@@ -1,3 +1,9 @@
 .footer__menu-list {
     margin-top: 40px!important;
 }
+
+@media (min-width: 2000px) {
+    .footer__menu-list {
+        margin-top: calc(40px + 0.3vw);
+    }
+}

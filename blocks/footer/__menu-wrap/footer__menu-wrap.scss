@@ -1,0 +1,20 @@
+.footer__menu-wrap {
+    flex-basis: 100%;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+@media (min-width: 769px) {
+    .footer__menu-wrap {
+        padding: 0 40px;
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer__menu-wrap {
+        flex-basis: auto;
+        padding: 0;
+        margin-top: 0;
+    }
+}

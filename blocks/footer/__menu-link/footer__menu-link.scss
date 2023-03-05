@@ -2,10 +2,22 @@
     font-family: 'Montserrat';
     font-weight: 400;
     text-decoration: none;
-    font-size: 23.6px;
+    font-size: 2rem;
     color: $header__text--color;
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer__menu-link {
+        font-size: 23.6px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer__menu-link {
+        font-size: calc(23.6px + 0.5vw);
     }
 }

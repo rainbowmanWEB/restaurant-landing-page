@@ -1,3 +1,29 @@
 .footer__info-wrap {
-    flex-basis: 38%;
+    flex-basis: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .footer__info-wrap {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer__info-wrap {
+        text-align: left;
+        display: block;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .footer__info-wrap {
+        flex-basis: 38%;
+        margin-top: 0;
+    }
 }

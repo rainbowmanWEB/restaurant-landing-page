@@ -1,3 +1,16 @@
 .footer__menu-elem {
     margin-top: 25px!important;
+    text-align: center;
+}
+
+@media (min-width: 1025px) {
+    .footer__menu-elem {
+       text-align: left;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer__menu-elem {
+        margin-top: calc(25px + 0.3vw);
+    }
 }

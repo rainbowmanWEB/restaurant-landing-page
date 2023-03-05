@@ -5,6 +5,21 @@
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    margin-right: 14px;
+    margin-right: 7px;
     margin-top: 40px;
+}
+
+@media (min-width: 426px) {
+    .footer__social-link {
+        margin-right: 14px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer__social-link {
+        width: calc(44px + 0.5vw);
+        height: calc(44px + 0.5vw);
+        margin-top: calc(40px + 0.5vw);
+        margin-right: calc(14px + 0.5vw);
+    }
 }
