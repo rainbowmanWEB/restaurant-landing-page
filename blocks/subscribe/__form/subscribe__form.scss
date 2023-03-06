@@ -3,5 +3,12 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    margin-top: 85px;
+    margin-top: 40px;
+}
+
+@media (min-width: 1025px) {
+    .subscribe__form {
+        position: relative;
+        left: 25px;
+    }
 }

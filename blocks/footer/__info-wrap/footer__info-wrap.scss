@@ -17,13 +17,14 @@
     .footer__info-wrap {
         text-align: left;
         display: block;
+        flex-basis: 48%;
+        margin-top: 0;
     }
 }
 
-
-@media (min-width: 1025px) {
+@media (min-width: 2000px) {
     .footer__info-wrap {
-        flex-basis: 38%;
-        margin-top: 0;
+        padding-right: calc(20px + 0.3vw);
+        flex-basis: 45%;
     }
 }

@@ -9,11 +9,14 @@
 @media (min-width: 769px) {
     .subscribe__text {
         font-size: 29.71px;
+        margin-top: 75px;
+        line-height: 38px;
     }
 }
 
 @media (min-width: 2000px) {
     .subscribe__text {
         font-size: calc(29.71px + 0.5vw);
+        line-height: calc(38px + 0.5vw);
     }
 }

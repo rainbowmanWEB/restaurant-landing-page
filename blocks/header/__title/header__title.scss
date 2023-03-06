@@ -6,9 +6,10 @@
     line-height: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
 	.header__title {
 		font-size: 124.63px;
+		text-align: left;
 	}
 }
 

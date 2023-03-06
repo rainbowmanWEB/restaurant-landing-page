@@ -3,7 +3,7 @@
     text-decoration: none;
     font-family: 'myriad_proregular';
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.5rem;
     z-index: 5;
     position: absolute;
@@ -11,12 +11,13 @@
     left: 10px;
     top: 10px;
     padding-left: 46px;
+    letter-spacing: 2px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
 	.header__logo {
-		left: 60px;
-        top: 40px;
+		left: 48px;
+        top: 49px;
         padding-left: 56px;
         font-size: 25px;
 	}
@@ -25,8 +26,8 @@
 @media (min-width: 2000px) {
 	.header__logo {
 		font-size: calc(25px + 0.5vw);
-        left: calc(60px + 0.3vw);
-        top: calc(40px + 0.3vw);
+        left: calc(48px + 0.3vw);
+        top: calc(49px + 0.3vw);
         padding-left: calc(56px + 0.5vw);
 	}
 }

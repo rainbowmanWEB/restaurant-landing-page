@@ -1,24 +1,25 @@
 .statistics__elem {
     border: 7px solid $header__text--color;
     border-radius: 50%;
-    flex-basis: 222px;
-    height: 222px;
+    flex-basis: 234px;
+    height: 234px;
     margin-top: 50px;
     position: relative;
     margin-right: 15px;
+    z-index: 5;
 }
 
 @media (min-width: 1025px) {
 	.statistics__elem {
-		margin-top: 130px;
+		margin-top: 87px;
         margin-right: 0;
 	}
 }
 
 @media (min-width: 2000px) {
 	.statistics__elem {
-		flex-basis: calc(222px + 0.3vw);
-        height: calc(222px + 0.3vw);
-        margin-top: calc(130px + 0.3vw);
+		flex-basis: calc(234px + 0.3vw);
+        height: calc(234px + 0.3vw);
+        margin-top: calc(87px + 0.3vw);
 	}
 }

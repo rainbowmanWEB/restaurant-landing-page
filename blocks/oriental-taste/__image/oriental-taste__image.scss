@@ -3,7 +3,7 @@
     height: 300px;
     border-radius: 50%;
     background-image: url('../images/best-seller-4.jpg');
-    background-position: right top;
+    background-position: -393px top;
     background-size: 687px 436px;
     display: block;
     position: relative;
@@ -14,15 +14,15 @@
 	.oriental-taste__image {
 		width: 375px;
         height: 375px;
-        background-size: 951px 574px;
+        background-size: 870px 562px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
 	.oriental-taste__image {
 		width: 475px;
         height: 475px;
-        background-size: 951px 574px;
+        top: -39px;
 	}
 }
 
@@ -30,6 +30,6 @@
 	.oriental-taste__image {
 		width: calc(475px + 0.5vw);
         height: calc(475px + 0.5vw);
-        
+        top: calc(-39px - 0.3vw);
 	}
 }

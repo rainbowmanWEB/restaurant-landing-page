@@ -11,7 +11,7 @@
         background-position-y: -20pxx;
         background-size: cover;
         width: 100%;
-        height: 760px;
+        height: 823px;
         position: absolute;
         left: 0;
         bottom: -2px;
@@ -24,7 +24,7 @@
 	.oriental-taste {
 
         &::before {
-            height: 560px;
+            height: 628px;
         }
 	}
 }
@@ -33,7 +33,7 @@
 	.oriental-taste {
 
         &::before {
-            height: calc(560px + 8vw);
+            height: calc(628px + 6vw);
         }
 	}
 }

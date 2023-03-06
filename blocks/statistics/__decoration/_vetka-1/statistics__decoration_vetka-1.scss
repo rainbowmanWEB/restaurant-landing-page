@@ -13,7 +13,14 @@
 
 @media (min-width: 769px) {
 	.statistics__decoration_vetka-1 {
-		left: 5%;
+		left: 4%;
         top: 15%;
+	}
+}
+
+@media (min-width: 1025px) {
+	.statistics__decoration_vetka-1 {
+		left: 4%;
+        top: 21%;
 	}
 }

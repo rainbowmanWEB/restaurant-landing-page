@@ -1,5 +1,5 @@
 .footer__menu-elem {
-    margin-top: 25px!important;
+    margin-top: 9px!important;
     text-align: center;
 }
 
@@ -11,6 +11,6 @@
 
 @media (min-width: 2000px) {
     .footer__menu-elem {
-        margin-top: calc(25px + 0.3vw);
+        margin-top: calc(9px + 0.3vw);
     }
 }

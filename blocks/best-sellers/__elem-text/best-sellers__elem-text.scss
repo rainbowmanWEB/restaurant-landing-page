@@ -5,14 +5,15 @@
     font-size: 1.5rem;
     color: $best-sellers__title--color;
     margin-top: 27px;
-    width: 230px;
+    width: 240px;
     display: block;
-    margin: auto;
+    margin: 5px auto 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
 	.best-sellers__elem-text {
 		font-size: 16.86px;
+        line-height: 20px;
 	}
 }
 
@@ -20,6 +21,7 @@
 	.best-sellers__elem-text {
 		font-size: calc(17px + 0.5vw);
         margin-top: calc(27px + 0.3vw);
-        width: calc(230px + 0.3vw);
+        width: calc(240px + 0.3vw);
+        line-height: calc(20px + 0.3vw);
 	}
 }

@@ -14,13 +14,13 @@
 
 @media (min-width: 1025px) {
     .footer {
-        padding: 253px 92px 300px;
+        padding: 253px 77px 300px 92px;
         justify-content: space-between;
     }
 }
 
 @media (min-width: 2000px) {
     .footer {
-        padding: calc(253px + 0.3vw) calc(92px + 0.3vw) calc(300px + 0.3vw);
+        padding: calc(253px + 0.3vw) calc(77px + 0.3vw) calc(300px + 0.3vw) calc(92px + 0.3vw);
     }
 }

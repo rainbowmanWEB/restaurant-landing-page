@@ -12,12 +12,12 @@
 @media (min-width: 1025px) {
 	.best-sellers__elem {
 		flex-basis: 33.333333%;
-        margin-top: 110px;
+        margin-top: 62px;
 	}
 }
 
 @media (min-width: 2000px) {
 	.best-sellers__elem {
-		margin-top: calc(110px + 0.3vw);
+		margin-top: calc(62px + 0.3vw);
 	}
 }

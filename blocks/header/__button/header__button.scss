@@ -1,15 +1,17 @@
 .header__button {
     margin-top: 26px;
+	display: inline-block;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
 	.header__button {
-		margin-top: 46px;
+		margin-top: 35px;
+		display: table;
 	}
 }
 
 @media (min-width: 2000px) {
 	.header__button {
-		margin-top: calc(46px + 0.3vw);
+		margin-top: calc(35px + 0.3vw);
 	}
 }

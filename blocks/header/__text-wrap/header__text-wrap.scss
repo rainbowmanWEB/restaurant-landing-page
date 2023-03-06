@@ -6,21 +6,21 @@
     text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 769px) {
 	.header__text-wrap {
-		margin-left: 37%;
+		margin-left: 44%;
         padding: 150px 90px 120px 28px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
 	.header__text-wrap {
-		padding: 228px 159px 232px 28px;
+		padding: 280px 159px 234px 28px;
 	}
 }
 
 @media (min-width: 2000px) {
 	.header__text-wrap {
-		padding: calc(228px + 0.2vw) calc(159px + 0.2vw) calc(232px + 0.2vw) calc(28px + 0.2vw);
+		padding: calc(280px + 0.2vw) calc(159px + 0.2vw) calc(234px + 0.2vw) calc(28px + 0.2vw);
 	}
 }

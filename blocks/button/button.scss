@@ -7,7 +7,8 @@
     padding: 10px 40px;
     border-radius: 5px;
     text-decoration: none;
-    display: inline-block;
+    display: table;
+    text-transform: uppercase;
 
     &:hover {
         color: lighten($button--color, 80%);
@@ -15,16 +16,16 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
 	.button {
 		font-size: 19.23px;
-        padding: 13px 57px;
+        padding: 9px 57px;
 	}
 }
 
 @media (min-width: 2000px) {
 	.button {
 		font-size: calc(19.23px + 0.5vw);
-        padding: calc(13px + 0.3vw) calc(57px + 0.3vw);
+        padding: calc(9px + 0.3vw) calc(57px + 0.3vw);
 	}
 }

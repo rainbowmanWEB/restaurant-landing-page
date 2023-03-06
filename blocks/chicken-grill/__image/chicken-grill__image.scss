@@ -3,3 +3,10 @@
     background-position: left bottom;
     background-size: 496px 491px;
 }
+
+@media (min-width: 1025px) {
+	.chicken-grill__image {
+        top: -54px;
+        left: 22px;
+	}
+}
